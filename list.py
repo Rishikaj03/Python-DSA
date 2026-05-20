@@ -121,15 +121,40 @@
 
 
 
-#*QUESTION*
-mylist=[]
-N = int(input("Enter the value of N: "))
-for i in range(N):
-    val = int(input("Enter the value: "))
-    mylist.append(val)
-print(len(mylist))
-sum=0
-for i in range(len(mylist)-1):
-    if i+1 in range(len(mylist)):
-        sum += abs(mylist[i]-mylist[i+1])
-print(sum)
+# #*QUESTION*
+# mylist=[]
+# N = int(input("Enter the value of N: "))
+# for i in range(N):
+#     val = int(input("Enter the value: "))
+#     mylist.append(val)
+# print(len(mylist))
+# sum=0
+# for i in range(len(mylist)-1):
+#     if i+1 in range(len(mylist)):
+#         sum += abs(mylist[i]-mylist[i+1])
+# print(sum)
+
+#--------------------------------------------------------------------------------------------------------------
+# mylist=[[100,198,333,323],[122,232,221,111],[223,565,245,764]]
+# newlist=[]
+# for i in range (3):
+#     j=0
+#     max = mylist[i][j]  #[0][0]
+#     for j in range(4):   #j=2
+#         c_max = mylist[i][j]  #[0][3]
+#         if max < c_max:   
+#             max = c_max
+#     newlist.append(max)
+# print(newlist)
+#---------------------------------------------------------------------------------------------------------------------
+# name = 'prashant*is*a*good*programmer'
+# newname = ''
+# val = ''
+# for i in name:
+#     if i !='*':
+#         newname += i
+#     else:
+#         val += i
+# print(newname)
+# print(str(val+newname))
+#------------------------------------------------------------------------------------------------------------------
